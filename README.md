@@ -1,5 +1,7 @@
 # ZATECH Platform
 
+PLATAFORMA EM DESENVOLVIMENTO
+
 ![Preview da ZATECH](zatech-preview.png..png)
 
 Plataforma gamificada de aprendizagem e comunidade para tecnologia: mapa de ilhas, trilhas, conceitos, XP, conquistas, ranking e Porto (timeline social).
