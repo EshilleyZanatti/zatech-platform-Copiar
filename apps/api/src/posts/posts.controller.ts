@@ -1,0 +1,2 @@
+import {Body,Controller,Get,Post,Query,Req,UseGuards} from '@nestjs/common';import {AuthGuard} from '../common/auth.guard';import {PostsService} from './posts.service';
+@Controller('posts')export class PostsController{constructor(private s:PostsService){}@Get('feed')feed(@Query('cursor')cursor?:string){return this.s.feed(cursor)}@Post()@UseGuards(AuthGuard)create(@Req()r:any,@Body()b:any){return this.s.create(r.user.id,b.content)}@Post(':id/like')@UseGuards(AuthGuard)like(@Req()r:any){return this.s.like(r.user.id,r.params.id)}}

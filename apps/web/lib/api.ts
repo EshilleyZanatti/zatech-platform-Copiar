@@ -1,0 +1,1 @@
+const base=process.env.NEXT_PUBLIC_API_URL||'http://localhost:4000';export async function api(path:string,options:RequestInit={}){const r=await fetch(`${base}${path}`,{...options,credentials:'include',headers:{'Content-Type':'application/json',...(options.headers||{})}});if(!r.ok)throw new Error(await r.text());return r.json()}

@@ -1,0 +1,1 @@
+import Sidebar from '../../components/sidebar';import PortoFeed from '../../components/porto-feed';export default function Porto(){return <main className="shell"><Sidebar/><div className="main standalone"><PortoFeed/></div></main>}
