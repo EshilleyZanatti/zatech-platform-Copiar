@@ -36,6 +36,3 @@ Web: http://localhost:3000
 API: http://localhost:4000
 
 Demo: `demo@zatech.dev` / `ZatechDemo123!`
-
-## Produção
-Antes de publicar, troque todas as credenciais, use PostgreSQL gerenciado, Redis gerenciado, HTTPS, domínio, WAF/CDN, backups, observabilidade, secrets manager e CI/CD. Faça testes de segurança (incluindo OWASP ASVS), testes de carga e revisão de permissões. Não reutilize a senha demo.
